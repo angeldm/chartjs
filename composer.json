@@ -1,0 +1,34 @@
+{
+    "name": "angeldm/chartjs",
+    "type": "library",
+    "description": "N/A",
+    "license": "AGPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Àngel Díaz",
+            "email": "angeldm@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.2",
+        "ext-json": "*",
+        "ext-dom": "*",
+        "zendframework/zend-json": "^2.6.1",
+        "zendframework/zend-code": "~3.3.0"
+    },
+    "autoload": {
+        "classmap": [
+            "src/",
+            "test/"
+        ],
+        "psr-4": {
+            "Angeldm\\ChartJS\\": "src/",
+            "Test\\": "test/"
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "require-dev": {
+        "phpunit/phpunit": "~6.5.0"
+    }
+}
