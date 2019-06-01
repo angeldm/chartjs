@@ -20,4 +20,4 @@ atlassian*
 /composer.lock
 /phpunit.phar
 /phing-latest.phar
-/.phpunit.result.cache
+.phpunit.result.cache
