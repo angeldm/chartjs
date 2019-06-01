@@ -39,6 +39,7 @@ class Html extends Renderer
         // Render JavaScript
         $scriptRenderer = new JavaScript($this->chart);
         $script         = $dom->createElement('script', $scriptRenderer->render($flags));
+        $script->setAttribute('type','text/javascript');
         $dom->appendChild($script);
 
         return $dom->saveHTML();
